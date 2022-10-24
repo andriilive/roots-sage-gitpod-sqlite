@@ -5,8 +5,8 @@
 Runs fresh WordPress boilerplate with `roots/bedrock`, `roots/sage`, Composer, Laravel-like configuration, and an improved folder structure.
 
 - [WP-CLI](https://wp-cli.org)
-- [roots/bedrock](https://roots.io/bedrock/)
-- [roots/sage](https://roots.io/sage/)
+- [roots/bedrock](https://roots.io/bedrock/) wordpress installation
+- [roots/sage](https://roots.io/sage/) theme
 - php 8.0
 - sqlite3 && wp sqlite integration by [aaemnnosttv/wp-sqlite-db](https://github.com/aaemnnosttv/wp-sqlite-db)
 - [wp-cli dotenv](https://aaemnnost.tv/wp-cli-commands/dotenv/) command support
