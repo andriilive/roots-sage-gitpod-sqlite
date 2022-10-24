@@ -11,6 +11,6 @@ Runs fresh WordPress boilerplate with `roots/bedrock`, `roots/sage`, Composer, L
 - sqlite3 && wp sqlite integration by [aaemnnosttv/wp-sqlite-db](https://github.com/aaemnnosttv/wp-sqlite-db)
 - [wp-cli dotenv](https://aaemnnost.tv/wp-cli-commands/dotenv/) command support
 
-⚠️ See the original repo for from scratch scaffold && continuous configurations examples 👉🏻 [andriilive/gitpod-wordpress-experiments](https://github.com/andriilive/gitpod-wordpress-experiments/tree/workspace/sqlite-only)
+⚠️ See the original repo for from scratch scaffold && continuous configurations examples 👉🏻 [andriilive/gitpod-wordpress-experiments](https://github.com/andriilive/gitpod-wordpress-experiments)
 
 [![StandWithUkraine](https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/badges/StandWithUkraine.svg)](https://github.com/vshymanskyy/StandWithUkraine/blob/main/docs/README.md)
