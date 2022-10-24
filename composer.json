@@ -40,7 +40,8 @@
     "roots/wordpress": "6.0.3",
     "roots/wp-config": "1.0.0",
     "roots/wp-password-bcrypt": "1.1.0",
-    "wpackagist-theme/twentytwentytwo": "^1.2"
+    "upstatement/routes": "^0.9.1",
+    "roots/acorn": "^2.1"
   },
   "require-dev": {
     "squizlabs/php_codesniffer": "^3.7.1",
@@ -65,6 +66,9 @@
     "wordpress-install-dir": "web/wp"
   },
   "scripts": {
+    "post-autoload-dump": [
+      "Roots\\Acorn\\ComposerScripts::postAutoloadDump"
+    ],
     "post-root-package-install": [
       "php -r \"copy('.env.example', '.env');\""
     ],
