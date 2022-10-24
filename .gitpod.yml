@@ -1,0 +1,27 @@
+image:
+  file: .gitpod.Dockerfile
+
+ports:
+  - port: 8080
+    onOpen: open-browser
+  - port: 1-10000
+    onOpen: ignore
+  - port: 3000
+    onOpen: notify
+
+tasks:
+
+  - name: Admin Helper
+    command: gp ports await 8080 && sh .utils/info.sh
+
+  - name: WP install
+    init: sh .utils/install.sh
+    command: wp server --host=0.0.0.0 --port=8080
+
+  - name: Theme install
+    init: |
+      gp ports await 8080
+      cd web/app/themes/theme
+      composer install --no-dev --prefer-dist --optimize-autoloader --no-interaction
+      yarn install
+    command: yarn run build

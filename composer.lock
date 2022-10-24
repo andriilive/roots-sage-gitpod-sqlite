@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "2e10f561b91ce220a1a85a47f8d9b335",
+    "content-hash": "6962940f925685c1df660c6c2833bab3",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -106,6 +106,49 @@
                 "source": "https://github.com/andriilive/wp-disable-generated-image-sizes/tree/main"
             },
             "time": "2022-09-22T06:45:02+00:00"
+        },
+        {
+            "name": "andriilive/wp-disable-users-endpoint",
+            "version": "0.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andriilive/wp-disable-users-endpoint.git",
+                "reference": "7d469898db0c9727a7fadaeb9c4cf19c7f2853c6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andriilive/wp-disable-users-endpoint/zipball/7d469898db0c9727a7fadaeb9c4cf19c7f2853c6",
+                "reference": "7d469898db0c9727a7fadaeb9c4cf19c7f2853c6",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "DigitalAndy",
+                    "homepage": "https://github.com/andriilive"
+                }
+            ],
+            "description": "`wp-disable-users-endpoint` plugin completely and for real disables WordPress &amp; plugins image sizes generation with no need for configuration. Supports bedrock and composer install",
+            "homepage": "https://github.com/andriilive/wp-disable-users-endpoint",
+            "keywords": [
+                "bedrock",
+                "composer",
+                "plugin",
+                "wordpress",
+                "wp-api"
+            ],
+            "support": {
+                "issues": "https://github.com/andriilive/wp-disable-users-endpoint/issues",
+                "source": "https://github.com/andriilive/wp-disable-users-endpoint/tree/0.1.0"
+            },
+            "time": "2022-10-19T20:45:12+00:00"
         },
         {
             "name": "brick/math",
