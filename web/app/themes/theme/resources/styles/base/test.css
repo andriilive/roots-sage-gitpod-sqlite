@@ -1,0 +1,14 @@
+html {
+  background: theme('colors.gray.100');
+  --test-var: 'test variable';
+}
+
+body {
+  @apply px-2;
+}
+
+body {
+  main {
+    @apply border border-black;
+  }
+}
