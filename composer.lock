@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eedd1dd47fe04bdf0254ac477342fe02",
+    "content-hash": "cb04dc790eff0d9bbf2ef45acb89f9c5",
     "packages": [
         {
             "name": "altorouter/altorouter",
@@ -65,6 +65,47 @@
                 "source": "https://github.com/dannyvankooten/AltoRouter/tree/2.0.2"
             },
             "time": "2020-03-09T08:34:59+00:00"
+        },
+        {
+            "name": "andriilive/wp-disable-generated-image-sizes",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/andriilive/wp-disable-generated-image-sizes.git",
+                "reference": "9ee891bcf9aba4452d91a27b9de2bbdc86a18483"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/andriilive/wp-disable-generated-image-sizes/zipball/9ee891bcf9aba4452d91a27b9de2bbdc86a18483",
+                "reference": "9ee891bcf9aba4452d91a27b9de2bbdc86a18483",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6"
+            },
+            "default-branch": true,
+            "type": "wordpress-muplugin",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "DigitalAndy",
+                    "homepage": "https://github.com/andriilive"
+                }
+            ],
+            "description": "`wp-disable-generated-image-sizes` plugin completely and for real disables WordPress &amp; plugins image sizes generation with no need for configuration. Supports bedrock and composer install",
+            "homepage": "https://github.com/andriilive/wp-disable-generated-image-sizes",
+            "keywords": [
+                "plugin",
+                "wordpress"
+            ],
+            "support": {
+                "issues": "https://github.com/andriilive/wp-disable-generated-image-sizes/issues",
+                "source": "https://github.com/andriilive/wp-disable-generated-image-sizes/tree/main"
+            },
+            "time": "2022-09-22T06:45:02+00:00"
         },
         {
             "name": "brick/math",
@@ -5357,12 +5398,14 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "andriilive/wp-disable-generated-image-sizes": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
     "prefer-lowest": false,
     "platform": {
-        "php": ">=7.4"
+        "php": ">=7.4",
+        "ext-pdo": "*"
     },
     "platform-dev": [],
     "plugin-api-version": "2.3.0"
