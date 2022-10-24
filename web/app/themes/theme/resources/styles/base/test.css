@@ -12,3 +12,7 @@ body {
     @apply border border-black;
   }
 }
+
+.brand {
+  color: red;
+}
