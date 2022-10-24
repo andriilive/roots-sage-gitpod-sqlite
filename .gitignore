@@ -31,3 +31,4 @@ wp-cli.local.yml
 web/app/themes/theme/vendor
 web/app/themes/theme/node_modules
 web/app/themes/theme/.budfiles
+web/app/themes/theme/public
