@@ -15,19 +15,19 @@ export default async (app) => {
      * Application entrypoints
      */
     .entry({
-      app: ["@scripts/app", "@styles/app"],
-      editor: ["@scripts/editor", "@styles/editor"],
+      app: ['@scripts/app', '@styles/app'],
+      editor: ['@scripts/editor', '@styles/editor'],
     })
 
     /**
      * Directory contents to be included in the compilation
      */
-    .assets(["images"])
+    .assets(['images'])
 
     /**
      * Matched files trigger a page reload when modified
      */
-    .watch(["resources/views/**/*", "app/**/*"])
+    .watch(['resources/views/**/*', 'app/**/*'])
 
     /**
      * Proxy origin (`WP_HOME`)
@@ -37,7 +37,7 @@ export default async (app) => {
     /**
      * Development origin
      */
-    .serve(process.env.BUD_SERVE)
+    .serve(process.env.WP_HOME)
 
     /**
      * URI of the `public` directory
