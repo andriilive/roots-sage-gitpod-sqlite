@@ -1,0 +1,1 @@
+echo "$(gp url 8080)/wp/wp-admin/"

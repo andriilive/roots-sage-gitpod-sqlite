@@ -1,5 +1,8 @@
 // @ts-check
 
+import * as dotenv from 'dotenv' // see https://github.com/motdotla/dotenv#how-do-i-use-dotenv-with-import
+dotenv.config({path: './../../../.env'});
+
 /**
  * Build configuration
  *
@@ -29,17 +32,17 @@ export default async (app) => {
     /**
      * Proxy origin (`WP_HOME`)
      */
-    .proxy("http://roots.devs")
+    .proxy(process.env.WP_HOME)
 
     /**
      * Development origin
      */
-    .serve("http://0.0.0.0:3000")
+    .serve(process.env.BUD_SERVE)
 
     /**
      * URI of the `public` directory
      */
-    .setPublicPath("/app/themes/theme/public/")
+    .setPublicPath(process.env.BUD_PUBLIC_PATH)
 
     /**
      * Generate WordPress `theme.json`
