@@ -1,4 +1,4 @@
-# Gitpod-Ready Bedrock Wordpress installation with roots/sage theme and sqlite database
+# GitPod-Ready Bedrock WordPress installation with roots/sage theme and sqlite database
 
 [![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://github.com/andriilive/wordpress-gitpod-starter-roots-sage)
 
