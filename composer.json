@@ -31,7 +31,7 @@
     }
   ],
   "require": {
-    "php": ">=7.4",
+    "php": ">=8.0",
     "composer/installers": "^2.2",
     "vlucas/phpdotenv": "^5.4",
     "oscarotero/env": "^2.1",
@@ -72,9 +72,6 @@
   "scripts": {
     "post-autoload-dump": [
       "Roots\\Acorn\\ComposerScripts::postAutoloadDump"
-    ],
-    "post-root-package-install": [
-      "php -r \"copy('.env.example', '.env');\""
     ],
     "test": [
       "phpcs"
