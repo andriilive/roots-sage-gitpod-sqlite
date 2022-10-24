@@ -1,4 +1,3 @@
-gp ports await 8080
 echo "wp/web: $(gp url 8080)"
 echo "wp/admin: $(gp url 8080)/wp/wp-admin/"
 echo "wp/user:"
